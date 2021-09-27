@@ -15,9 +15,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 //mongoose.connect('mongodb://localhost:27017/groupeSaoDb',{ useUnifiedTopology: true, useNewUrlParser: true });
 
 
-mongoose.connect('mongodb+srv://SaoGroupe:barnou052018@clustersaogroupe.n7o0s.mongodb.net/saogroupedb?retryWrites=true&w=majority');
-
-//mongoose.connect('mongodb://mngassa:mngassa@10.30.40.121:27017/mngassa',{​​​​​​​ useUnifiedTopology: true, useNewUrlParser: true }​​​​​​​  );
+mongoose.connect('mongodb+srv://SaoGroupe:le_mot_de_passe@clustersaogroupe.n7o0s.mongodb.net/saogroupedb?retryWrites=true&w=majority');
 
 /*const PORT = 3019;
 app.listen(PORT,()=>{                                  
